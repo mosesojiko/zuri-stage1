@@ -15,7 +15,14 @@ function App() {
           <p id="slack">Slack: mosganda</p>
         </div>
       </div>
-      
+      {/* The links section*/}
+      <div>
+        <div>
+      <a href='https://training.zuri.team' target="_blank">
+        <button>Zuri Team</button>
+      </a>
+    </div>
+      </div>
     </div>
   );
 }

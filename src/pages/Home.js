@@ -53,7 +53,14 @@ function Home() {
               <p>Become a professional designer for free.</p>
         
       </a>
-    </div>
+       </div>
+
+                  {/* link to contact page*/}    
+          <div>
+      <a id="contact" href='/contact' target="_blank">
+              <p>Contact</p>
+      </a>
+       </div>        
       </div>
       </div>
     </div>

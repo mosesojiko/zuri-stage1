@@ -8,12 +8,13 @@
   justify-content: center;
   width: 50%;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 #profile_img {
   height: auto;
-  margin-top: 20px;
+  margin-top: 10px;
+  width:250px;
   max-width: 300px;
   border-radius: 50%;
   display: block;
@@ -34,12 +35,12 @@
 
 
 .profile-links > div {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 a {
   display: block;
   background: #4E9CAF;
-  padding: 10px;
+  padding: 1px;
   text-align: center;
   border-radius: 5px;
   color: white;
@@ -55,6 +56,13 @@ a {
   background-color: brown;
 }
 
-a > h3 {
+a > h4 {
   color: yellow;
+  padding: 0;
+  margin: 0;
+}
+a > p {
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
 }

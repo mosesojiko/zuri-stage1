@@ -25,7 +25,7 @@ function Home() {
         <div>
       <a id="books" href='https://books.zuri.team' target="_blank">
             
-              <h3>Books</h3>
+              <h4>Books</h4>
               <p>This is where you find books about design and coding.</p>
         
       </a>
@@ -33,7 +33,7 @@ function Home() {
         <div>
       <a id="book_python" href='https://books.zuri.team/python-for-beginners?ref_id=mosganda' target="_blank">
             
-              <h3>Python for beginners</h3>
+              <h4>Python for beginners</h4>
               <p>The best rated book for python development. Only two copies remaining.</p>
        
       </a>
@@ -41,7 +41,7 @@ function Home() {
         <div>
       <a id="pitch" href='https://background.zuri.team' target="_blank">
             
-              <h3>Pitch</h3>
+              <h4>Pitch</h4>
               <p>My job is to run background checks on coders in less than 30 minutes.</p>
         
       </a>
@@ -49,7 +49,7 @@ function Home() {
         <div>
       <a id="book_design" href='https://books.zuri.team/design-rules' target="_blank">
             
-              <h3>Design Rules</h3>
+              <h4>Design Rules</h4>
               <p>Become a professional designer for free.</p>
         
       </a>

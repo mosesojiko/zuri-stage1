@@ -12,11 +12,11 @@ function App() {
       </Routes>
 
       <footer>
-        <div>Zuri<span style={{ color: "red", fontSize: "10px"}}>*</span>Internship</div>
+        <div style={{fontSize:"12px"}}>Zuri<span style={{ color: "red", fontSize: "20px"}}>.</span>Internship</div>
         <div style={{color:"gray", fontSize:"9px"}}>HNG Internship 9 Frontend task</div>
         <div>
-          <p style={{padding:0, margin:0}}>Ingressive</p>
-          <p style={{padding:0, margin:0}}>For Good</p>
+          <p style={{padding:0, margin:0, fontSize:"12px"}}>Ingressive</p>
+          <p style={{padding:0, margin:0,fontSize:"12px"}}>For Good</p>
         </div>
       </footer>
     </BrowserRouter>

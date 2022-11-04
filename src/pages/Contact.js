@@ -28,7 +28,7 @@ function Contact() {
         <div className='contact_form_container'>
             <form className='contact_form' onSubmit={handleSubmit}>
                 <h3 style={{textAlign:"center"}}>Contact Me</h3>
-                <p style={{textAlign:"center"}}>Hi there, contact me to ask me about anything you have in mind.</p>
+                <p style={{textAlign:"center",fontSize:"12px"}}>Hi there, contact me to ask me about anything you have in mind.</p>
                 <div className='contact_form_namecontainer'>
                     <div>
                         <lable htmlFor="first_name">First Name</lable>

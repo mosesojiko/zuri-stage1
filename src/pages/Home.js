@@ -57,7 +57,7 @@ function Home() {
 
                   {/* link to contact page*/}    
           <div>
-      <a id="contact" href='/contact' target="_blank">
+      <a id="contact" href='/contact'>
               <p>Contact</p>
       </a>
        </div>        

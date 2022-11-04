@@ -14,6 +14,7 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault()
         setSuccess(true)
+        setName("Ojiko Moses")
         setSucessMessage("Sent successfully.")
     }
 

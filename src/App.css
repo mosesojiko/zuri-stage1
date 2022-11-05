@@ -39,30 +39,29 @@
 }
 a {
   display: block;
-  background: #4E9CAF;
-  padding: 1px;
+  padding: 5px;
   text-align: center;
   border-radius: 5px;
-  color: white;
   font-weight: bold;
   line-height: 25px;
   text-decoration: none;
+  background-color: #f0f0f0;
+  font-size: 12px;
+  color: black
 }
  a:hover {
-  border: 2px solid navy;
+  background-color: #dedede;
  }
 
-#btn_zuri {
-  background-color: brown;
-}
+
 
 a > h4 {
-  color: yellow;
   padding: 0;
   margin: 0;
+  font-size: 12px;
 }
 a > p {
   padding: 0;
   margin: 0;
-  font-size: 12px;
+  font-size: 10px;
 }

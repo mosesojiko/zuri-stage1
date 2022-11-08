@@ -15,7 +15,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
-    font-size: 36px;
+    font-size: 25px;
     line-height: 44px;
     letter-spacing: -0.02em;
     color: #101828;
@@ -130,13 +130,18 @@
     .contact_form_container {
             width: 70%;
             margin: 0 auto;
+            margin-left: 0px;
+            padding: 3px;
         }
     .contact_form {
-        width: 100%;
+        width: 90%;
     }
 
     .contact-form-subtext {
         font-size: 12px;
+        max-width: 95%;
+        height: 12px;
+        line-height: 12px;
     }
     .contact_form > div {
         width: 100%;
@@ -153,6 +158,8 @@
     }
     .radio_btn {
         font-size: 12px;
+        height: 12px;
+        line-height: 12px;
     }
     
 }

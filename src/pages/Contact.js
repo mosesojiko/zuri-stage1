@@ -27,7 +27,7 @@ function Contact() {
     return (
         <div className='contact_form_container'>
             <form className='contact_form' onSubmit={handleSubmit}>
-                <p className='contact-form-heading' style={{textAlign:"center"}}>Contact Me</p>
+                <p className='contact-form-heading'>Contact Me</p>
                 <p className='contact-form-subtext'>Hi there, contact me to ask me about anything you have in mind.</p>
                 <div className='contact_form_namecontainer'>
                     <div>

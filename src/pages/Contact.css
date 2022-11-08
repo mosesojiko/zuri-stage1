@@ -126,9 +126,10 @@
     background-color: #1874cd;
 }
 
-@media screen and (max-width:560px){
+@media screen and (max-width:700px){
     .contact_form_container {
-            width: 90%;
+            width: 70%;
+            margin: 0 auto;
         }
     .contact_form {
         width: 100%;

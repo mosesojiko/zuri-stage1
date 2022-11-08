@@ -27,11 +27,11 @@ function Contact() {
     return (
         <div className='contact_form_container'>
             <form className='contact_form' onSubmit={handleSubmit}>
-                <h3 style={{textAlign:"center"}}>Contact Me</h3>
-                <p style={{textAlign:"center",fontSize:"12px"}}>Hi there, contact me to ask me about anything you have in mind.</p>
+                <p className='contact-form-heading' style={{textAlign:"center"}}>Contact Me</p>
+                <p className='contact-form-subtext'>Hi there, contact me to ask me about anything you have in mind.</p>
                 <div className='contact_form_namecontainer'>
                     <div>
-                        <lable htmlFor="first_name">First Name</lable>
+                        <lable htmlFor="first_name" className="flabel">First Name</lable>
                              <input
                              type="text"
                              id="first_name"
@@ -40,7 +40,7 @@ function Contact() {
                             />
                     </div>
                     <div>
-                        <lable htmlFor="last_name">Last Name</lable>
+                        <lable htmlFor="last_name" className="flabel">Last Name</lable>
                              <input
                              type="text"
                              id="last_name"
@@ -51,7 +51,7 @@ function Contact() {
                 </div>
 
                 <div>
-                        <lable htmlFor="email">Email</lable>
+                        <lable htmlFor="email" className="flabel">Email</lable>
                              <input
                              type="text"
                              id="email"
@@ -61,7 +61,7 @@ function Contact() {
                     </div>
 
                     <div>
-                        <lable htmlFor="message">Message</lable>
+                        <lable htmlFor="message" className="flabel">Message</lable>
                              <textarea
                             id="message"
                             rows="4"
@@ -72,7 +72,7 @@ function Contact() {
                 </div>
                 <div style={{display:"flex", alignItems:"center"}}>
                     <input type="radio" id="radio_btn" />
-                    <label htmlFor ="radio_btn" style={{fontSize:"10px"}}>You agree to providing your data to {name} who may contact you.</label>
+                    <label htmlFor ="radio_btn" className='radio_btn'>You agree to providing your data to {name} who may contact you.</label>
                 </div>
                 <div>
                     {/*show success message*/}

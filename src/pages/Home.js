@@ -17,7 +17,7 @@ function Home() {
           
           <div>
             
-      <a id="twitter" href='#'>
+      <a id="twitter" href='https://twitter.com/OjikoMoses' target="_blank">
         Twitter link
       </a>
         </div>

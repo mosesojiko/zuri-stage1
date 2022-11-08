@@ -28,17 +28,11 @@
   font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 14px;
     line-height: 30px;
-    /* identical to box height, or 150% */
-  
     text-align: center;
-  
-    /* Gray/900 */
-  
     color: #101828;
-  
-    
+    margin-bottom: 30px;
 }
 
 #slack {
@@ -62,7 +56,7 @@
   font-style: normal;
   text-decoration: none;
   background-color: #EAECF0;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 28px;
   color: #101828;
   width: 100%;
